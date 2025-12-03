@@ -1,0 +1,25 @@
+# Object files
+*.o
+
+# Build directories
+/build/
+*/build/
+Debug/
+Release/
+
+# IDE files
+*.user
+*.launch
+*.log
+*.swp
+*.swo
+
+# STM32CubeIDE
+.settings/
+.metadata/
+.project
+.cproject
+
+# OS files
+.DS_Store
+Thumbs.db
