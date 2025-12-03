@@ -1,5 +1,3 @@
-# stm32-firmware-foundations
-
 # STM32 Firmware Foundations
 
 This repository documents my journey from mastering C fundamentals to building a professional-grade custom bootloader for the STM32F411CEU6 microcontroller.  
