@@ -1,0 +1,9 @@
+- Linker script controls placement of code and variables in memory.
+- .text = code in FLASH.
+- .rodata = constants in FLASH.
+- .data = initialized globals, stored in FLASH, copied to RAM.
+- .bss = zero-initialized globals, allocated in RAM.
+- Stack is defined manually in embedded systems.
+- Bootloader and application use DIFFERENT linker scripts.
+- Vector table must be placed at the start of FLASH region.
+- ENTRY(Reset_Handler) defines program start.
